@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>evaluacion html y css</title>
+	<link href="estilo.css" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<h1>evaluación Html ycss</h1>
+	</header>
+	<main>
+		<section class="formulario-seccion">
+		 <h2>formulario de datos del estudiante</h2>
+						<hr>
+		 <form action="#" method="post">
+			<div class="contenedor_datos">
+				<div id="nombres_apellidos">
+					<div class="campo">
+						<label for="nombre">nombres:</label>
+						<input type="text" id="nombre" name="nombre" required>
+					</div>
+					<div class="campo">
+						<label for="apellidos">apellidos:</label>
+						<input type="text" id="apellidos" name="apellidos" required>
+					</div>
+				</div>
+				<div id="grado_materia">
+					<div class="campo">
+						<label for="grado">grado:</label>
+						<input type="text" id="grado" name="grado"required>
+					</div>
+					<div class="campo">
+						<label for="materia">materia:</label>
+						<input type="text" id="materia" name="materia" required>
+					</div>
+				</div>	
+			</div>
+			<div class="campo">
+				<label for="calificacion">calificacion:</label>
+				<input type="number" id="calificacion" name="calificacion" min="0" max="5" step="0.1"required>
+			</div>
+			<hr>
+			 <h2>preguntas</h2>
+			  <div class="preguntas-seccion">
+					<label>¿Para qué se utiliza la etiqueta <a> en HTML?</label>
+					<p> 
+						<input type="radio"  name="p1" value="1" required>
+						 Para crear una tabla<br>
+                         Para insertar una imagen<br>
+                         Para enlazar a otra página o sitio web
+                         Para crear una lista
+					</p>
+					<label>¿Qué significa HTML?</label>
+					<p> 
+						<input type="radio"  name="p1" value="2">
+						 Hyper Tool Markup Language
+                         Hyperlinks and Text Markup Language
+                         Home Tool Markup Language
+                         HyperText Markup Language
+					</p>
+					<label>¿Cuál es la etiqueta correcta para insertar una imagen?</label>
+					<p>
+						<input type="radio"  name="p1" value="3">
+					    &lt;image src=&quot;foto.jpg&quot;&gt;
+						&lt;img href=&quot;foto.jpg&quot;&gt;
+						&lt;img src=&quot;foto.jpg&quot;&gt;
+						&lt;picture&gt;foto.jpg&lt;/picture&gt;
+					    
+					</p>
+					<label>¿Qué etiqueta se usa para hacer un encabezado de primer nivel?</label>
+					<p>
+						<input type="radio"  name="p1" value="4">
+						&lt;header&gt;
+						&lt;h1&gt;
+						&lt;heading1&gt;
+						&lt;title&gt;					 
+					</p>
+					<label>¿Dónde se coloca la etiqueta &lt;title&gt; en un documento HTML?</label>
+					<p>
+					    <input type="radio"  name="p1" value="5">
+						 Dentro del &lt;head&gt;
+                         DentrO del &lt;body&gt;          
+                         Fuera del &lt;html&gt;
+                         Dentro de &lt;footer&gt;
+					</p>
+				    <label>¿Cuál es la estructura básica mínima de un documento HTML?</label>
+					<p>
+						<input type="radio"  name="p1" value="6">
+						 &lt;html&gt;&lt;head&gt;&lt;body&gt;&lt;/body&gt;&lt;/head&gt;&lt;/html&gt;
+                         &lt;html&gt;&lt;body&gt;&lt;head&gt;&lt;/head&gt;&lt;/body&gt;&lt;/html&gt;
+                         &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;
+                         &lt;body&gt;&lt;head&gt;&lt;html&gt;&lt;/html&gt;&lt;/head&gt;&lt;/body&gt;
+					</p>
+					<label>¿Qué atributo en la etiqueta &lt;img&gt; describe el texto alternativo?</label>
+					<p>
+						<input type="radio"  name="p1" value="7">
+						 description
+                         alt
+                         title
+                         src
+					</p>
+					<label>¿Qué etiqueta se utiliza para crear una lista ordenada?</label>
+					<p>
+						<input type="radio"  name="p1" value="8">
+						 &lt;ul&gt;
+                         &lt;ol&gt;
+                         &lt;list&gt;
+                         &lt;li&gt;
+					</p>
+					<label>¿Cuál es el propósito del atributo href en HTML?</label>
+					<p>
+						<input type="radio"  name="p1" value="9">
+						 Definir el estilo de un elemento
+                         Especificar la fuente de una imagen
+                         Especificar la dirección de un enlace
+                         Crear una tabla
+					</p>
+					<label>¿Qué etiqueta se usa para crear una celda de tabla?</label>
+					<p>
+						<input type="radio"  name="p1" value="10">
+						 &lt;th&gt;
+                         &lt;td&gt;
+                         &lt;tr&gt;
+                         &lt;tabledata&gt;
+					</p>
+					<label>¿Qué etiqueta se usa para insertar una línea horizontal?</label>
+					<p>
+						<input type="radio"  name="p1" value="11">
+						 &lt;line&gt;
+                         &lt;hr&gt;
+                         &lt;br&gt;
+                         &lt;border&gt;
+					</p>
+					<label>¿Cuál de estas etiquetas se utiliza para hacer énfasis en un texto?</label>
+					<p>
+						<input type="radio"  name="p1" value="12">
+						 &lt;strong&gt;
+                         &lt;b&gt;
+                         &lt;em&gt;
+                         &lt;mark&gt;
+					</p>
+			 
+			 </div>
+			<p>son doce preguntas y cada una tiene un puntaje de 0.5 puntos</p>
+			<button type="submit">enviar</button>
+		</form>
+	   </section>
+    </main>
+	
+	<footer>
+	  <p>documento creado para fines educativos.&copy 2025 SENATEC</p>
+	</footer>
+</body>
+<html>
